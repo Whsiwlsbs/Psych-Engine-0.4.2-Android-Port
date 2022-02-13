@@ -1,88 +1,77 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				120,
 				110
 			],
+			"loop": false,
 			"anim": "idle",
 			"fps": 24,
-			"name": "exe Idle",
+			"name": "sonic alt",
 			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				187,
-				182
+				117,
+				112
 			],
+			"loop": false,
 			"anim": "singUP",
 			"fps": 24,
-			"name": "exe Up",
+			"name": "sonic Up",
 			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				200,
-				121
+				120,
+				111
 			],
+			"loop": false,
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "exe Left",
+			"name": "sonic Left",
 			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				120,
 				110
 			],
+			"loop": false,
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "exe Right",
+			"name": "sonic Right",
 			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				119,
-				109
+				121,
+				111
 			],
+			"loop": false,
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "exe Down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				100,
-				104
-			],
-			"anim": "laugh",
-			"fps": 24,
-			"name": "exe Laugh",
+			"name": "sonic Down",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/exe",
+	"image": "characters/sonic",
 	"position": [
-		50,
-		70
+		10,
+		160
 	],
-	"healthicon": "exe",
-	"flip_x": false,
+	"healthicon": "sonic2",
+	"flip_x": true,
 	"healthbar_colors": [
-		40,
-		0,
-		115
+		100,
+		100,
+		255
 	],
 	"camera_position": [
-		170,
-		35
+		250,
+		-55
 	],
 	"sing_duration": 4,
 	"scale": 0.9
